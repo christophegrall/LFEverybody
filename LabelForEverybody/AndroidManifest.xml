@@ -14,8 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"  >
         <activity
-            android:name="com.cgfoundery.labelforeverybody.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.cgfoundery.labelforeverybody.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar"   >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +23,8 @@
             </intent-filter>
         </activity>
         
-         <activity
-            android:name="com.cgfoundery.labelforeverybody.SplashActivity">
+        <activity
+            android:name="com.cgfoundery.labelforeverybody.MainActivity">
         </activity>
         
     </application>
